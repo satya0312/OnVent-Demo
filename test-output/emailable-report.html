@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">22,473</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">online.onvent.qa.testcases.LiveWallTest</td><td><a href="#m0">LogOutFromApplicatio</a></td><td rowspan="1">1681896250087</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">ProvideMessageInLiveWall</a></td><td rowspan="1">1681896250080</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m2">VerifyMessageInLiveWall</a></td><td rowspan="1">1681896250084</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">online.onvent.qa.testcases.LiveWallTest</td><td><a href="#m3">TakeLiveWallScreenshot</a></td><td rowspan="1">1681896239981</td><td rowspan="1">10097</td></tr><tr class="passedodd"><td rowspan="3">online.onvent.qa.testcases.RegisterPageTest</td><td><a href="#m4">VerifyEmailVerificationCode</a></td><td rowspan="1">1681896228191</td><td rowspan="1">3070</td></tr><tr class="passedodd"><td><a href="#m5">VerifyregistrationStep1</a></td><td rowspan="1">1681896227634</td><td rowspan="1">554</td></tr><tr class="passedodd"><td><a href="#m6">VerifyregistrationStep2</a></td><td rowspan="1">1681896231262</td><td rowspan="1">8716</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">online.onvent.qa.testcases.LiveWallTest#LogOutFromApplicatio</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;online.onvent.qa.pageobjects.LiveWallPageObjects.ClickOnMyAccount()&quot; because &quot;this.LiveWallPage&quot; is null
+	at online.onvent.qa.testcases.LiveWallTest.LogOutFromApplicatio(LiveWallTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">online.onvent.qa.testcases.LiveWallTest#ProvideMessageInLiveWall</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at online.onvent.qa.pageobjects.LiveWallPageObjects.&lt;init&gt;(LiveWallPageObjects.java:16)
+	at online.onvent.qa.testcases.LiveWallTest.ProvideMessageInLiveWall(LiveWallTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">online.onvent.qa.testcases.LiveWallTest#VerifyMessageInLiveWall</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;online.onvent.qa.pageobjects.LiveWallPageObjects.VerifyMessageOnWall(String)&quot; because &quot;this.LiveWallPage&quot; is null
+	at online.onvent.qa.testcases.LiveWallTest.VerifyMessageInLiveWall(LiveWallTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">online.onvent.qa.testcases.LiveWallTest#TakeLiveWallScreenshot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">online.onvent.qa.testcases.RegisterPageTest#VerifyEmailVerificationCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">online.onvent.qa.testcases.RegisterPageTest#VerifyregistrationStep1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">online.onvent.qa.testcases.RegisterPageTest#VerifyregistrationStep2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
